@@ -1,0 +1,91 @@
+Interview Questions:
+
+What is the difference between classes and stucts?
+    Structs: Value Types
+    Classes: Reference Types
+    
+What are the ways to handle optionals?
+    1. optional chainning
+    2. nil coelescing
+    3. if let statement (optional binding)
+    4. guard let statement
+    5. implicitly unwrapped optionals
+    6. force unwrapping
+    
+What does ARC stand for?
+    Automatic Reference Counter
+    
+What does MMR stand for?
+    Manual Retain and Release
+    
+What does REST stand for?
+    Representational State Transer
+    
+What are the properties of a RESTful app?
+    1.Client Server
+    2.Stateless
+    3.Cacheable
+    
+A singleton pattern is said to be_?
+    antiPattern
+    
+Why is it not a good idea to use singletons?
+    Becomes difficult to test, and does not follow OOP standards
+    
+What are the OOP Principles?
+    1. Abstraction
+    2. Inheritance
+    3. Ploymorphism
+    4. Associations
+    5. Aggregation
+    6. Composition
+    
+What is persistant data?
+    data that is used if the user is not on the internet
+    
+What does CRED stand for?
+    Create, Read, Update, Delete
+    
+What is typealias?
+    Protocols with an associated type
+    
+What does MVVM stand for?
+    Model View View Model
+    Model View -> presentation logic
+    View Model -> business logic
+    
+When would MVC and MVVM be employed?
+    MVC -> on smaller projects
+    MVVM -> on larger projects
+    
+What is the difference between Deep Copy and Shallow Copy?
+    deep copy: copies everything
+    shallow copy: minimum copy, copy a reference pointer
+    
+Can there be a deep copy of a reference pointer?
+    Yes
+    
+Why do we use nonatomic vs atomic?
+    it is faster, but it is not guaranteed to return a value
+    
+What is a memory leak?
+    memory that is retained but not needed
+    
+What are the three types of memory management accessors?
+    1. Strong -> its the default
+    2. weak
+    3. Unowned -> but if it gets deinitialized before it gets called the app will crash
+    
+What is the difference between unit tests and integration tests?
+    Unit tests -> used to isolate a feature
+    Integration tests -> you have to launch the full app
+    
+What are the four steps when debugging?
+    1. Reproduce
+    2. Debug ->create a profile or baseline for comparrison
+    3. Modify
+    4. Repeat
+    
+What is a selector?
+    names of methods on an object or struct and are used to execute code during runtime
+    
