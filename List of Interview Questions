@@ -39,15 +39,21 @@ What are the OOP Principles?
     4. Associations
     5. Aggregation
     6. Composition
+
+    Alternate answer:
+    1. Encapsulation
+    2. Abstraction
+    3. Inheritence
+    4. Polymorphism
     
 What is persistant data?
-    data that is used if the user is not on the internet
+    Data that is stored locally. Data is available even after you fully close and restart your app.
     
 What does CRED stand for?
     Create, Read, Update, Delete
     
 What is typealias?
-    Protocols with an associated type
+    Alternate name for existing types.
     
 What does MVVM stand for?
     Model View View Model
